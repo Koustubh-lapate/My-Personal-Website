@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "target": "es6",
+    "paths": {
+      "@/*": ["./src/*"] // Update "./src/*" to the actual path to your components directory
+    },
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
