@@ -1,3 +1,5 @@
+'use client'
+
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiUpwork, SiFiverr } from 'react-icons/si';
@@ -31,7 +33,7 @@ const profiles = [
 
 export const ProfilesSection = () => {
   return (
-    <section className="py-24 relative overflow-hidden" id="profiles">
+    <section className="py-20 relative overflow-hidden" id="profiles">
       <div className="container">
         <h2 className="font-serif text-3xl md:text-4xl text-center mb-16">
           Connect With Me
