@@ -4,7 +4,7 @@ export const Header = () => {
       <a href="#" className="nav-item">Home</a>
       <a href="#" className="nav-item">Profiles</a>
       <a href="#" className="nav-item">Projects</a>
-      <a href="#" className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900">Contact</a>
+      <a href="#" className="nav-item">Contact</a>
     </nav>
   </div>;
 };

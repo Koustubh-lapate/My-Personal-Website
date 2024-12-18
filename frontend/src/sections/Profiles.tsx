@@ -8,25 +8,25 @@ const profiles = [
   {
     name: 'GitHub',
     icon: FaGithub,
-    url: 'https://github.com/YourUsername',
+    url: 'https://github.com/Koustubh-lapate',
     color: 'hover:text-gray-400',
   },
   {
     name: 'LinkedIn',
     icon: FaLinkedin,
-    url: 'https://linkedin.com/in/YourUsername',
+    url: 'https://www.linkedin.com/in/koustubh-lapate-18590a1ba/',
     color: 'hover:text-blue-400',
   },
   {
     name: 'Upwork',
     icon: SiUpwork,
-    url: 'https://www.upwork.com/YourProfile',
+    url: 'https://www.upwork.com/freelancers/~013d3b9a878cf2bd44',
     color: 'hover:text-green-400',
   },
   {
     name: 'Fiverr',
     icon: SiFiverr,
-    url: 'https://www.fiverr.com/YourProfile',
+    url: 'https://www.fiverr.com/koustubh_lapate?public_mode=true',
     color: 'hover:text-emerald-400',
   },
 ];
@@ -36,7 +36,7 @@ export const ProfilesSection = () => {
     <section className="py-20 relative overflow-hidden" id="profiles">
       <div className="container">
         <h2 className="font-serif text-3xl md:text-4xl text-center mb-16">
-          Connect With Me
+          My Profiles
         </h2>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
