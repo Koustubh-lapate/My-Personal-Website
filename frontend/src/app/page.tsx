@@ -2,6 +2,7 @@ import { Header } from "@/sections/Header";
 import { HeroSection } from "@/sections/Hero";
 import { ProfilesSection } from "@/sections/Profiles"
 import { ProjectsSection } from "@/sections/Projects";
+import { ContactSection } from "@/sections/Contact";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <ProfilesSection />
       <ProjectsSection />
+      <ContactSection />
     </div>
   );
 }
